@@ -6,11 +6,17 @@ Paper link: Coming soon
 
 ## Links for dataset downloads
 
-### [CCT-20](https://lila.science/datasets/caltech-camera-traps)
+### CCT-20
 
-### [APTOS](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
+[LILA BC download link](https://lila.science/datasets/caltech-camera-traps)
 
-### [Human Protein Atlas](https://www.kaggle.com/competitions/human-protein-atlas-image-classification/data)
+### APTOS
+
+[Kaggle download link](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
+
+### Human Protein Atlas
+
+[Kaggle download link](https://www.kaggle.com/competitions/human-protein-atlas-image-classification/data)
 
 [Preprocessing](https://github.com/pudae/kaggle-hpa)
 
@@ -21,7 +27,11 @@ Paper link: Coming soon
 [Competition 2019](https://www.kaggle.com/datasets/cdeotte/jpeg-isic2019-512x512)
 
 
-### [Cassava](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data)
+### Cassava
 
-### [EuroSAT](https://pytorch.org/vision/main/generated/torchvision.datasets.EuroSAT.html)
+[Kaggle download link](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data)
+
+### EuroSAT
+
+[Pytorch dataset](https://pytorch.org/vision/main/generated/torchvision.datasets.EuroSAT.html)
 
