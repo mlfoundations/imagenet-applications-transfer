@@ -2,7 +2,7 @@
 
 This repository contains code for using the datasets found in our paper. We include torch dataset code, as well as the splits used for our experiments.
 
-Paper link: Coming soon
+Paper link: https://arxiv.org/abs/2301.04644
 
 ## Links for dataset downloads
 
