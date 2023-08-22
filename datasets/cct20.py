@@ -50,8 +50,7 @@ class CCTDataset(torch.utils.data.Dataset):
         label = torch.tensor(self.labels[idx]).long()
         return image, label
 
-def get_cct20():
-    img_size = 256
+def get_cct20(img_size=256):
     mean = [0.485, 0.456, 0.406]
     std = [0.229, 0.224, 0.225]
     transform = transforms.Compose([
@@ -59,7 +58,7 @@ def get_cct20():
                     transforms.CenterCrop(img_size),
                     transforms.ToTensor(),
                     transforms.Normalize(mean, std)])
-    # testset_cis = CCTDataset(split='cis', transform=transform) # cis val
+    testset_cis = CCTDataset(split='cis', transform=transform) # cis val
     testset_true = CCTDataset(split='test', transform=transform)
 
     transform_train = transforms.Compose([
@@ -69,4 +68,4 @@ def get_cct20():
                     transforms.Normalize(mean, std)])
     trainset = CCTDataset(split='train', transform=transform_train)
 
-    return trainset, testset_true
+    return trainset, testset_cis, testset_true
